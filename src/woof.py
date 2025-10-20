@@ -15,7 +15,3 @@ def woofy():
     # Approve YBS to pull our yCRV
     ycrv.approve(ybs.address, 420)
     print("Approved!")
-
-    # Stake yCRV into YBS
-    ybs.stake(420)
-    print("Staked!")
