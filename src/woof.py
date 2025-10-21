@@ -13,9 +13,5 @@ def woofy():
     print(f"Our yCRV balance: {balance / 1e18:.4f}")
 
     # Approve YBS to pull our yCRV
-    ycrv.approve(ybs.address, balance)
+    ycrv.approve(ybs.address, 420)
     print("Approved!")
-
-    # Stake yCRV into YBS
-    ybs.stake(balance)
-    print("Staked!")
